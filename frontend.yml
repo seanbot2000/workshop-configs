@@ -1,0 +1,14 @@
+backend:
+  url: CREATE_AN_ENVIRONMENT_VALUE
+
+security:
+  basic:
+    enabled: false
+
+zuul:
+  add-proxy-headers: true
+  ignored-services: "*"
+  routes:
+    employees:
+      path: /employees/**
+      url: ${backend.url}
