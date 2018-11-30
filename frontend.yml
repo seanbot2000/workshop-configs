@@ -7,6 +7,6 @@ zuul:
   ignored-services: "*"
   routes:
     employees:
-      path: /api/employees**
+      path: /api/employees/**
       serviceId: employees
       stripPrefix: false
