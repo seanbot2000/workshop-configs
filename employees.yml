@@ -1,3 +1,14 @@
+sample:
+  firstNames:
+    - Robert
+    - DaShaun
+  lastNames:
+    - Sirchia
+    - Carter
+  emails:
+    - robertsi@magenic.com
+    - dacarter@pivotal.io
+
 security:
   basic:
     enabled: false
