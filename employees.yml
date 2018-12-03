@@ -1,4 +1,5 @@
 sample:
+  initialize: true
   firstNames:
     - Robert
     - DaShaun
