@@ -6,6 +6,8 @@ ribbon:
   eureka:
     enabled: false
 
+token: ddc2db3e-0093-3dd2-9e49-2b1b4ba583fb
+
 zuul:
   add-proxy-headers: true
   ignored-services: "*"
