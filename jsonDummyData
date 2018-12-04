@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "firstName": "Manoj",
+        "lastName": "Gunawardena",
+        "email": "manojg@wso2.com"
+    },
+    {
+        "id": "2",
+        "firstName": "Nuwan",
+        "lastName": "Bandara",
+        "email": "nuwan@wso2.com"
+    }
+]
