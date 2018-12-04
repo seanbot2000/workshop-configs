@@ -2,17 +2,11 @@ security:
   basic:
     enabled: false
 
-ribbon:
-  eureka:
-    enabled: false
-
-token: ddc2db3e-0093-3dd2-9e49-2b1b4ba583fb
-
 zuul:
   add-proxy-headers: true
   ignored-services: "*"
   routes:
     employees:
       path: /api/employees/**
-      url: https://rapid-tst.cerner.com:8243/emp/v1/api/employees/
+      serviceId: employees
       stripPrefix: false
