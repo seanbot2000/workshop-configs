@@ -2,6 +2,10 @@ security:
   basic:
     enabled: false
 
+ribbon:
+  eureka:
+    enabled: false
+
 zuul:
   add-proxy-headers: true
   ignored-services: "*"
