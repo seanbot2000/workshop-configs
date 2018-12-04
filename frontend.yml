@@ -12,5 +12,5 @@ zuul:
   routes:
     employees:
       path: /api/employees/**
-      url: https://rapid-tst.cerner.com:8243/emp/v1/api/employees
+      url: https://rapid-tst.cerner.com:8243/emp/v1/
       stripPrefix: false
