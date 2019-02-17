@@ -7,6 +7,6 @@ zuul:
   ignored-services: "*"
   routes:
     employees:
-      path: /api/employees/**
+      path: /api/Employee/**
       url: https://dotnet-employees-wacky-hippopotamus.cfapps.io
       stripPrefix: false
