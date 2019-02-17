@@ -3,12 +3,15 @@ sample:
   firstNames:
     - Robert
     - DaShaun
+    - Sean
   lastNames:
     - Sirchia
     - Carter
+    - Noyes
   emails:
     - robertsi@magenic.com
     - dacarter@pivotal.io
+    - snoyes@pivotal.io
 
 security:
   basic:

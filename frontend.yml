@@ -8,5 +8,5 @@ zuul:
   routes:
     employees:
       path: /api/employees/**
-      serviceId: employees
+      url: https://dotnet-employees-wacky-hippopotamus.cfapps.io
       stripPrefix: false
