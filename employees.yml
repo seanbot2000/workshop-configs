@@ -15,7 +15,7 @@ sample:
 
 security:
   basic:
-    enabled: false
+    enabled: true
 
 spring:
   jpa:
