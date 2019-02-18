@@ -8,5 +8,5 @@ zuul:
   routes:
     employees:
       path: /api/employees/**
-      url: https://employees-delightful-turtle.cfapps.io/api/Employee
+      url: https://employees-delightful-turtle.cfapps.io
       stripPrefix: false
