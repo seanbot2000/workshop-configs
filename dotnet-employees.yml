@@ -1,0 +1,24 @@
+sample:
+  initialize: True
+  firstNames:
+    - Robert
+    - DaShaun
+    - Sean
+  lastNames:
+    - Sirchia
+    - Carter
+    - Noyes
+  emails:
+    - robertsi@magenic.com
+    - dacarter@pivotal.io
+    - snoyes@pivotal.io
+
+security:
+  basic:
+    enabled: true
+
+spring:
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
